@@ -52,9 +52,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SCBasics.SCWarden\SCBasics.SCWarden.csproj">
+    <ProjectReference Include="..\SCBasics.SCWarden\SCBasics.SCWarden.UI.csproj">
       <Project>{1281EADA-E596-419D-872C-5FE7C36BD441}</Project>
-      <Name>SCBasics.SCWarden</Name>
+      <Name>SCBasics.SCWarden.UI</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
